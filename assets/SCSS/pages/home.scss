@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    min-height: 100vh;
+        background: url("../../../assets/image/h1_hero1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    .container {
+        width: 85%;
+        min-height: 600px;
+    
+        p {
+            text-align: center;
+            font-family: 'jost';
+            color: #74706B;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    h1{
+         font-family: 'jost';
+         font-size: 50px;
+        
+       
+        line-height: 72PX;
+    }
+        span {
+            color: rgb(210, 11, 14);
+            // font-family: "Clicker Script";
+            // font-size: 60px;
+        }
+    
+        button {
+            padding: 17px;
+            width: 25%;
+            background-color: #292621;
+            color: aliceblue;
+    
+        }
+    
+        button:hover {
+            background-color: aliceblue;
+            color: black;
+            transition: 1s;
+            
+    
+        }
+    
+        .secDes {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+            width: 50%;
+            min-height: 100vh;
+            align-items: center;
+            
+            }
+    }
+
+}
+
+
+
